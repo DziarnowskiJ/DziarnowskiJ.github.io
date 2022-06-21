@@ -1,119 +1,566 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
- <style type="text/css">
-   body{
-      background-color:rgb(50,50,50);
-      color:white
-   }
-   a{
-      color:rgb(210,210,255)
-   }
-   img{
-      margin: 15px 15px 15px 15px
-   }
-   hr{
-      border-top: 1px solid gray;
-   }
-   .infotd{
-     vertical-align:top
-   }
- </style>
+<html lang="en">
+
+<head>
+    <title>Jakub Dziarnowski</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!-- MY CSS-->
+    <link rel="stylesheet" href="styles/main.css">
+    <!--    <link rel="stylesheet" href="css/index.css">-->
 </head>
 
-<body style="background-color:rgb(50,50,50); color:white;">
-  <center><table width="1000px">
-    <tbody>
-      <tr>
-        <td class="infotd" align="justify">
-          <h3>Jakub Dziarnowski</h3>
-          <p> I am a student at City, University of London. I'm from Wroclaw, Poland but currently 
-            I live in London. I graduated high school with the International Baccalaureate programme (IB) 
-            with Mathematics, Physics and English on a higher level. In my free time, I enjoy doing sports, 
-            especially lacrosse which I have been practising for the last 5 years. <br>
-            <br>
-            Before Bootcamp, I had a short Front-end developer course where I have 
-            learned the basics of HTML, CSS and JavaScript. Although it is a bit different to Processing language, 
-            I think it gave me a good base for further programming and definitely encouraged to continue programming.
-          </p> 
-        </td>
-        <td>
-          <img src="./index_files/imageOfMe.jpeg" width="300px">
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <hr>
-        </td>
-      </tr>
-      <tr>
-        <td class="infotd">
-          <h3>Bootcamp 2020: Hangman game</h3>
-          <p align="justify">
-            This is my first Processing project summarizing the 2-week Programming Bootcamp at City University (2020). <br />
-            The program, to run properly uses multiple Processing tools like classes, loops, conditions, methods and randomness. 
-            This game has the option to be played by one person or two - this can be chosen after the start of the program 
-            by choosing a correct button. Choosing a singleplayer mode will randomly choose the guessing word from the 
-            provided text file and start a game. Multiplayer mode will first allow you to input the word that later 
-            will be guessed by another player. It is submitted by clicking enter.<br>
-            When the game is played, each keypress starts the sequence of methods that determine whether the inputted 
-            letter is right or wrong, and acts accordingly. If the letter is correct, the program will display it. 
-            If not, then the part of the gibbet wil be drawn.<br>
-            The game ends when the whole word is guessed or the whole gibbet is displayed on the screen. 
-            Then the player has a choice to play again with a different word or to exit.
-          </p>
-          <p>
-            Check out my code on Github: <a href="https://github.com/DziarnowskiJ/adbs990/tree/master/Hangman">github.com/DziarnowskiJ/adbs990/hangman</a>
-          </p>
-        </td>
-        <td>
-          <iframe width="400" height="225" src="https://web.microsoftstream.com/embed/video/50d2b318-89c1-486d-a29e-526c629c863a?autoplay=false&amp;showinfo=false" allowfullscreen style="border:none;"></iframe>
-        </td>
-        <td>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <img src="./index_files/hangman/hangman1.png" width="285px">
-          <img src="./index_files/hangman/hangman2.png" width="285px">
-          <img src="./index_files/hangman/hangman3.png" width="285px">
-        </td>
-      </tr>
-        <tr>
-        <td colspan="2">
-          <hr>
-        </td>
-      </tr>
-      <tr>
-        <td class="infotd">
-          <h3>Programming in Java: JavaHero vs CodeBugs</h3>
-          <p align="justify">
-            This is my first Java game concluding my Programmin in Java module at City University (2020). <br />
-            
-            Game runs on the CityEngine which is a simplified wrapper around the JBox2D library. <br />
-              
-            This is a single player game, in which the player controls JavaHero and tries to destroy all CodeBugs. He can do it by planting explosives or shooting them. To progress to next levels JjavaHero must jump into the portal that appears after defeating all Bugs <br />
-              
-            The game provides a simple graphical user interface with multiple options like volume regulation,
-            saving and loading a game state and comparing scores. Additionally, it provides an instruction to learn about controls in a game. <br />
-            
-          </p>
-          <p>
-            Check out my code on Github: <a href="https://github.com/DziarnowskiJ/adbs990/tree/master/JavaHero%20vs%20CodeBugs">github.com/DziarnowskiJ/adbs990/javaHero</a>
-          </p>
-        </td>
-        <td>
-          <iframe width="400" height="225" src="https://web.microsoftstream.com/embed/video/4cd75382-99c8-4e19-ad70-6d84e8f54616?autoplay=false&amp;showinfo=false" allowfullscreen style="border:none;"></iframe>
-        </td>
-        <td>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <img src="./index_files/javaHero/javaHero1.jpg" width="285px">
-          <img src="./index_files/javaHero/javaHero3.jpg" width="285px">
-          <img src="./index_files/javaHero/javaHero2.jpg" width="285px">
-        </td>
-      </tr>
-    </tbody>
-  </table></center>
-</body></html>
+<body data-bs-spy="scroll" tabindex="0" class="container bg-dark">
+    <div class="row">
+
+        <!-- NAVIGATION -->
+        <div class="col-12 col-md-2">
+            <!-- SCROLL SPY NAVBAR-->
+
+            <!--            <a class="navbar-brand" href="#">Navbar</a>-->
+
+            <ul class="nav nav-pills sticky-top flex-column">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">About Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="firstYear" role="button" aria-expanded="false">First year</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#bootcampProcessing">Bootcamp processing</a></li>
+                        <li><a class="dropdown-item" href="#javaHero">Java project</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="secondYear" role="button" aria-expanded="false">Second year</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#distter">Distributed Social Network</a></li>
+                        <li><a class="dropdown-item" href="#teamProject">Team Project</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="otherProjects" role="button" aria-expanded="false">Other projects</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#pythonCourse">Python course</a></li>
+                        <li><a class="dropdown-item" href="#solitaire">Solitaire</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- CONTENT -->
+        <div class="col-12 col-md-10">
+            <!-- ABOUT ME -->
+            <section class="container" id="aboutMe">
+                <div class="card text-bg-light border-dark mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">About me</h5>
+                                <p class="card-text">I am a student at City, University of London. I'm from Wroclaw, Poland but currently I live in London. I graduated high school with the International Baccalaureate programme (IB) with Mathematics, Physics and English on a higher level. In my free time, I enjoy doing sports, especially lacrosse which I have been practising for the last 5 years.
+                                </p>
+                                <p class="card-text"> Before Bootcamp, I had a short Front-end developer course where I have learned the basics of HTML, CSS and JavaScript. Although it is a bit different to Processing language, I think it gave me a good base for further programming and definitely encouraged to continue programming.</p>
+                                <!-- DOWNLOAD CV BUTTONS -->
+                                <div class="d-grid gap-2 d-md-block">
+                                    <p class="card-text">Check out my CV:</p>
+                                    <!-- ENG -->
+                                    <a class="btn btn-secondary disabled" href="./index_files/CV/JakubDziarnowskiENG.pdf" download role="button" target="_blank">
+                                        English
+                                    </a>
+                                    <!-- PL -->
+                                    <a class="btn btn-secondary" href="./index_files/CV/JakubDziarnowskiPL.pdf" download role="button" target="_blank">
+                                        Polish
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img src="index_files/imageOfMe.jpeg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FIRST YEAR PROJECTS -->
+            <div>
+                <!-- SECTION TITLE -->
+                <div class="alert alert-dark" id="firstYear" role="alert" style="margin: 2%">
+                    First year projects
+                </div>
+
+                <!-- BOOTCAMP PROCESSING -->
+                <section class="container" id="bootcampProcessing">
+                    <div class="card text-bg-light border-dark clearfix">
+                        <div class="row g-0">
+                            <!-- CAROUSEL-->
+                            <div class="col-md-4">
+                                <div id="carouselProcessing" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="10000">
+                                            <img src="./index_files/hangman/hangman1.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="./index_files/hangman/hangman2.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/hangman/hangman3.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProcessing" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselProcessing" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- DESCRIPTION -->
+                            <div class="col-md">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootcamp 2020: Hangman game</h5>
+                                    <p class="card-text">This is my first Processing project summarizing the 2-week Programming Bootcamp at City University (2020).
+                                    </p>
+                                    <p class="card-text"> The program, to run properly uses multiple Processing tools like classes, loops, conditions, methods and randomness. This game has the option to be played by one person or two - this can be chosen after the start of the program by choosing a correct button. Choosing a singleplayer mode will randomly choose the guessing word from the provided text file and start a game. Multiplayer mode will first allow you to input the word that later will be guessed by another player.
+                                        <br>
+                                        When the game is played, each keypress starts the sequence of methods that determine whether the inputted letter is right or wrong, and acts accordingly. If the letter is correct, the program will display it. If not, then the part of the gibbet wil be drawn.
+                                        <br>
+                                        The game ends when the whole word is guessed or the whole gibbet is displayed on the screen. Then the player has a choice to play again with a different word or to exit.
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/adbs990/tree/master/Hangman" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalProcessing">
+                                            See video description
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL PROCESSING -->
+                            <div class="modal fade" id="modalProcessing" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalProcessingLabel">Hangman</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ratio ratio-16x9">
+                                            <iframe src="https://web.microsoftstream.com/embed/video/50d2b318-89c1-486d-a29e-526c629c863a?autoplay=false&amp;showinfo=false" allowfullscreen style="border:none;" width="400" height="225"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- JAVA PROJECT -->
+                <section class="container" id="javaHero">
+                    <div class="card text-bg-light border-dark clearfix">
+                        <div class="row g-0">
+                            <!-- DESCRIPTION -->
+                            <div class="col-md">
+                                <div class="card-body">
+                                    <h5 class="card-title">Programming in Java: JavaHero vs CodeBugs</h5>
+                                    <p class="card-text">This is my first Java game concluding my Programmin in Java module at City University (2020).
+                                    </p>
+                                    <p class="card-text">Game runs on the CityEngine which is a simplified wrapper around the JBox2D library.
+                                    </p>
+                                    <p class="card-text">This is a single player game, in which the player controls JavaHero and tries to destroy all CodeBugs. He can do it by planting explosives or shooting them. To progress to next levels JjavaHero must jump into the portal that appears after defeating all Bugs
+                                    </p>
+                                    <p class="card-text">The game provides a simple graphical user interface with multiple options like volume regulation,
+                                        saving and loading a game state and comparing scores. Additionally, it provides an instruction to learn about controls in a game.
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/adbs990/tree/master/Hangman" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalProcessing">
+                                            See video description
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CAROUSEL-->
+                            <div class="col-md-4">
+                                <div id="carouselJava" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="10000">
+                                            <img src="./index_files/javaHero/javaHero4.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="./index_files/javaHero/javaHero2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/javaHero/javaHero3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/javaHero/javaHero1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselJava" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselJava" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- MODAL PROCESSING -->
+                            <div class="modal fade" id="modalProcessing" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalProcessingLabel">Hangman</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ratio ratio-16x9">
+                                            <iframe src="https://web.microsoftstream.com/embed/video/50d2b318-89c1-486d-a29e-526c629c863a?autoplay=false&amp;showinfo=false" allowfullscreen style="border:none;" width="400" height="225"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- SECOND YEAR PROJECTS -->
+            <div>
+                <!-- SECTION TITLE -->
+                <div class="alert alert-dark" id="secondYear" role="alert" style="margin: 2%">
+                    Second year projects
+                </div>
+                
+                <!-- DISTTER -->
+                <section class="container" id="distter">
+                    <div class="card text-bg-light border-dark clearfix">
+                        <div class="row g-0">
+                            <!-- CAROUSEL-->
+                            <div class="col-md-4">
+                                <div id="carouselDistter" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="10000">
+                                            <img src="./index_files/hangman/hangman1.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="./index_files/hangman/hangman2.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/hangman/hangman3.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDistter" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselDistter" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- DESCRIPTION -->
+                            <div class="col-md">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootcamp 2020: Hangman game</h5>
+                                    <p class="card-text">This is my first Processing project summarizing the 2-week Programming Bootcamp at City University (2020).
+                                    </p>
+                                    <p class="card-text"> The program, to run properly uses multiple Processing tools like classes, loops, conditions, methods and randomness. This game has the option to be played by one person or two - this can be chosen after the start of the program by choosing a correct button. Choosing a singleplayer mode will randomly choose the guessing word from the provided text file and start a game. Multiplayer mode will first allow you to input the word that later will be guessed by another player.
+                                        <br>
+                                        When the game is played, each keypress starts the sequence of methods that determine whether the inputted letter is right or wrong, and acts accordingly. If the letter is correct, the program will display it. If not, then the part of the gibbet wil be drawn.
+                                        <br>
+                                        The game ends when the whole word is guessed or the whole gibbet is displayed on the screen. Then the player has a choice to play again with a different word or to exit.
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/adbs990/tree/master/Hangman" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalDistter">
+                                            See video description
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL PROCESSING -->
+                            <div class="modal fade" id="modalDistter" tabindex="-1" aria-labelledby="distterModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalDistterLabel">Hangman</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ratio ratio-16x9">
+                                            <iframe src="https://web.microsoftstream.com/embed/video/50d2b318-89c1-486d-a29e-526c629c863a?autoplay=false&amp;showinfo=false" allowfullscreen style="border:none;" width="400" height="225"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- JAVA PROJECT -->
+                <section class="container" id="teamProject">
+                    <div class="card text-bg-light border-dark clearfix">
+                        <div class="row g-0">
+                            <!-- DESCRIPTION -->
+                            <div class="col-md">
+                                <div class="card-body">
+                                    <h5 class="card-title">Programming in Java: JavaHero vs CodeBugs</h5>
+                                    <p class="card-text">This is my first Java game concluding my Programmin in Java module at City University (2020).
+                                    </p>
+                                    <p class="card-text">Game runs on the CityEngine which is a simplified wrapper around the JBox2D library.
+                                    </p>
+                                    <p class="card-text">This is a single player game, in which the player controls JavaHero and tries to destroy all CodeBugs. He can do it by planting explosives or shooting them. To progress to next levels JjavaHero must jump into the portal that appears after defeating all Bugs
+                                    </p>
+                                    <p class="card-text">The game provides a simple graphical user interface with multiple options like volume regulation,
+                                        saving and loading a game state and comparing scores. Additionally, it provides an instruction to learn about controls in a game.
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/adbs990/tree/master/Hangman" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalTeamProject">
+                                            See video description
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CAROUSEL-->
+                            <div class="col-md-4">
+                                <div id="carouselTeamProject" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="10000">
+                                            <img src="./index_files/javaHero/javaHero4.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="./index_files/javaHero/javaHero2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/javaHero/javaHero3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/javaHero/javaHero1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTeamProject" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselTeamProject" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- MODAL PROCESSING -->
+                            <div class="modal fade" id="modalTeamProject" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalProcessingLabel">Hangman</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ratio ratio-16x9">
+                                            <iframe src="https://web.microsoftstream.com/embed/video/50d2b318-89c1-486d-a29e-526c629c863a?autoplay=false&amp;showinfo=false" allowfullscreen style="border:none;" width="400" height="225"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- OTHER PROJECTS -->
+            <div>
+                <!-- SECTION TITLE -->
+                <div class="alert alert-dark" id="otherProjects" role="alert" style="margin: 2%">
+                    Other projects
+                </div>
+                
+                <!-- BOOTCAMP PROCESSING -->
+                <section class="container" id="pythonCourse">
+                    <div class="card text-bg-light border-dark clearfix">
+                        <div class="row g-0">
+                            <!-- CAROUSEL-->
+                            <div class="col-md-4">
+                                <div id="carouselPython" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="10000">
+                                            <img src="./index_files/hangman/hangman1.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="./index_files/hangman/hangman2.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/hangman/hangman3.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPython" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPython" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <!-- DESCRIPTION -->
+                            <div class="col-md">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootcamp 2020: Hangman game</h5>
+                                    <p class="card-text">This is my first Processing project summarizing the 2-week Programming Bootcamp at City University (2020).
+                                    </p>
+                                    <p class="card-text"> The program, to run properly uses multiple Processing tools like classes, loops, conditions, methods and randomness. This game has the option to be played by one person or two - this can be chosen after the start of the program by choosing a correct button. Choosing a singleplayer mode will randomly choose the guessing word from the provided text file and start a game. Multiplayer mode will first allow you to input the word that later will be guessed by another player.
+                                        <br>
+                                        When the game is played, each keypress starts the sequence of methods that determine whether the inputted letter is right or wrong, and acts accordingly. If the letter is correct, the program will display it. If not, then the part of the gibbet wil be drawn.
+                                        <br>
+                                        The game ends when the whole word is guessed or the whole gibbet is displayed on the screen. Then the player has a choice to play again with a different word or to exit.
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/adbs990/tree/master/Hangman" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalProcessing">
+                                            See video description
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- MODAL PROCESSING -->
+                            <div class="modal fade" id="modalProcessing" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalProcessingLabel">Hangman</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ratio ratio-16x9">
+                                            <iframe src="https://web.microsoftstream.com/embed/video/50d2b318-89c1-486d-a29e-526c629c863a?autoplay=false&amp;showinfo=false" allowfullscreen style="border:none;" width="400" height="225"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- JAVA PROJECT -->
+                <section class="container" id="solitaire">
+                    <div class="card text-bg-light border-dark clearfix">
+                        <div class="row g-0">
+                            <!-- DESCRIPTION -->
+                            <div class="col-md">
+                                <div class="card-body">
+                                    <h5 class="card-title">Programming in Java: JavaHero vs CodeBugs</h5>
+                                    <p class="card-text">This is my first Java game concluding my Programmin in Java module at City University (2020).
+                                    </p>
+                                    <p class="card-text">Game runs on the CityEngine which is a simplified wrapper around the JBox2D library.
+                                    </p>
+                                    <p class="card-text">This is a single player game, in which the player controls JavaHero and tries to destroy all CodeBugs. He can do it by planting explosives or shooting them. To progress to next levels JjavaHero must jump into the portal that appears after defeating all Bugs
+                                    </p>
+                                    <p class="card-text">The game provides a simple graphical user interface with multiple options like volume regulation,
+                                        saving and loading a game state and comparing scores. Additionally, it provides an instruction to learn about controls in a game..
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/adbs990/tree/master/Hangman" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalProcessing">
+                                            See video description
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CAROUSEL-->
+                            <div class="col-md-4">
+                                <div id="carouselJava" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="10000">
+                                            <img src="./index_files/javaHero/javaHero4.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item" data-interval="2000">
+                                            <img src="./index_files/javaHero/javaHero2.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/javaHero/javaHero3.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/javaHero/javaHero1.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselJava" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselJava" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- MODAL PROCESSING -->
+                            <div class="modal fade" id="modalProcessing" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalProcessingLabel">Hangman</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ratio ratio-16x9">
+                                            <iframe src="https://web.microsoftstream.com/embed/video/50d2b318-89c1-486d-a29e-526c629c863a?autoplay=false&amp;showinfo=false" allowfullscreen style="border:none;" width="400" height="225"></iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
