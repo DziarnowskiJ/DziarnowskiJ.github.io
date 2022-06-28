@@ -2,3 +2,7 @@
 .card {
     margin: 1%;
 }
+
+.card-text {
+    text-align: justify;
+}

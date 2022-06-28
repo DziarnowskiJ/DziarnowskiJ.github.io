@@ -1,4 +1,7 @@
-jQuery('#myModal1').on('hidden.bs.modal', function (e) {
-  // do something...
-  jQuery('#myModal1 video').attr("src", jQuery("#myModal1  video").attr("src"));
+// stop video when modal is closed
+$('.stopVideo').click(function (e) {
+    $("iframe").each(function () {
+        var src = $(this).attr('src');
+        $(this).attr('src', src);
+    });
 });
