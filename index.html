@@ -1,13 +1,3 @@
-<!--    COMMENTS FOR FUTURE ME    -->
-
-
-
-<!--    NOTE: check all links to github and make sure they link to proper sections                              -->
-<!--    NOTE: make sure the photos in the carousel have a similar height - especially Python course section     -->
-<!--    FUTURE: work on LinkedIn page                                                                           -->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,6 +34,12 @@
                     <a class="nav-link" href="#aboutMe">About Me</a>
                 </li>
                 <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="featuredProjects" role="button" aria-expanded="false">Featured projects</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#adventOfCode">Advent of Code</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="firstYear" role="button" aria-expanded="false">First year</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#bootcampProcessing">Bootcamp processing</a></li>
@@ -55,6 +51,12 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#distter">Distributed Social Network</a></li>
                         <li><a class="dropdown-item" href="#teamProject">Team Project</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="thirdYear" role="button" aria-expanded="false">Third year</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#MP_AI">Programming and Mathematics for AI</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -80,14 +82,16 @@
                                     <h5 class="card-title">About me</h5>
                                     <p class="card-text">I am a student at City, University of London. I'm from Wroclaw, Poland but currently I live in London. I graduated high school with the International Baccalaureate programme (IB) with Mathematics, Physics and English on a higher level. In my free time, I enjoy doing sports, especially lacrosse which I have been practising for the last 5 years.
                                     </p>
-                                    <!-- TODO: change "ABOUT ME" description -->
-                                    <p class="card-text"> Before University, I had a short Front-end developer course where I have learned the basics of HTML, CSS and JavaScript. Although it covered only the basis of web development, it made my realise how much I enjoy coding. Additionally, I think it gave me a good base for further programming and definitely encouraged to develop my skills in this area.</p>
+                                    <p class="card-text"> Before University, I had a short Front-end developer course where I have learned the basics of HTML, CSS and JavaScript. Although it covered only the basis of web development, it made my realise how much I enjoy coding. Additionally, I think it gave me a good base for further programming and definitely encouraged to develop my skills in this area.
+                                    </p>
+                                    <p class="card-text">
+                                    Now, after almost 3 years of studying computer science, I have significantly expanded my knowledge in this field. I have learned new programming languages like Java, C++, Python and Haskell, gained the understnding of various algorithms and programming practicies. Although my skills improved, I understand there is still a lot to learn and I am eager to expand my abilities in this area.
+                                    </p>
                                     <!-- DOWNLOAD CV BUTTONS -->
                                     <div class="d-grid gap-2 d-md-block">
                                         <p class="card-text">Check out my CV:</p>
                                         <!-- ENG -->
-                                        <!--    TODO: add english CV    -->
-                                        <a class="btn btn-secondary disabled" href="./index_files/CV/JakubDziarnowskiENG.pdf" download role="button" target="_blank">
+                                        <a class="btn btn-secondary" href="./index_files/CV/JakubDziarnowskiENG.pdf" download role="button" target="_blank">
                                             English
                                         </a>
                                         <!-- PL -->
@@ -100,6 +104,68 @@
                             <div class="col-lg-3">
                                 <img src="index_files/imageOfMe.jpg" class="img-fluid rounded-start" alt="...">
                             </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- FEATURED PROJECTS -->
+            <div>
+                <!-- SECTION TITLE -->
+                <div class="alert alert-dark text-center h4" id="featuredProjects" role="alert" style="margin: 2%">
+                    Featured projects
+                </div>
+
+                <!-- ADVENT OF CODE -->
+                <section class="container" id="adventOfCode">
+                    <!-- CARD -->
+                    <div class="card text-bg-light border border-dark aos-right">
+                        <div class="row g-0">
+                            <!-- DESCRIPTION -->
+                            <div class="col-lg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Advent of Code</h5>
+                                    <p class="card-text">
+                                        Advent of Code is an annual Christmas-themed computer programming event. It is a set of 25 coding challenges - one for each day of the advent - that can be completed in any programming language. Although I know a couple of them, like Java, Python or C++, I choose to do it in Haskell which I was currently learning at the university. As Haskell is commonly regarded as a difficult language, I considered it a great opportunity to learn and practice while still having fun solving the challenges. <br>
+                                        Additionally, apart from just solving the challenges, I have decided to document my attempts in form of short descriptions about each day on my GitHub page. Those notes include some basic visualisation and the explanation of the task.
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/AdventOfCode" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CAROUSEL-->
+                            <div class="col-lg-5">
+                                <div id="carouselAoC" class="carousel slide" data-bs-ride="carousel" style="height:360px">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./index_files/aoc/aoc1.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/aoc/aoc2.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/aoc/aoc3.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/aoc/aoc4.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAoC" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAoC" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </section>
@@ -275,7 +341,7 @@
                         <div class="row g-0">
                             <!-- CAROUSEL-->
                             <div class="col-lg-5">
-                                <div id="carouselDistter" class="carousel slide" data-bs-ride="carousel">
+                                <div id="carouselDistter" class="carousel slide" data-bs-ride="carousel" style="height:360px">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img src="./index_files/distter/distter1.png" class="d-block w-100" alt="...">
@@ -374,12 +440,12 @@
                                     <div class="d-grid gap-2 d-md-block">
                                         <!-- Github link -->
                                         <!--
-                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/adbs990/tree/master/Hangman" role="button">
+                                        <a class="btn btn-secondary" href="" role="button">
                                             Check my code on Github <i class="bi bi-github"></i>
                                         </a>
 -->
                                         <!-- Button trigger modal -->
-<!--
+                                        <!--
                                         <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalTeamProject">
                                             See video description
                                         </button>
@@ -437,6 +503,57 @@
                 </section>
             </div>
 
+            <!-- THIRD YEAR PROJECTS -->
+            <div>
+                <!-- SECTION TITLE -->
+                <div class="alert alert-dark text-center h4" id="thirdYear" role="alert" style="margin: 2%">
+                    Third year projects
+                </div>
+
+                <!-- PROGRAMMING AND MATHS FOR AI -->
+                <section class="container" id="MP_AI">
+                    <!-- CARD -->
+                    <div class="card text-bg-light border border-dark aos-right">
+                        <div class="row g-0">
+                            <!-- DESCRIPTION -->
+                            <div class="col-lg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Programming and Mathematics for Artificial Inteligence</h5>
+                                    <p class="card-text">
+                                        This project was a coursework summarising my work throughthout the module "Programming and Mathematics for Artificial Inteligence". It consisted of three parts, which were to demonstrate my abilities in terms of Programming, Neural Networks, and Deep Learning.
+                                    </p>
+                                    <h6 class="card-title">Shortest path algorithms</h6>
+                                    <p class="card-text">
+                                        The goal of this task was to develop a simple game consisting of a rectangular grid (of size height x width) where each cell had a random value between 0 and 9. An agent would start at the upper-left corner of the grid and had to reach the lower-right corner of the grid as fast as possible. I had to implement a couple of algorithms to find the shortest path and compare their performance against each other.
+                                    </p>
+                                    <h6 class="card-title">Development of Neural Network</h6>
+                                    <p class="card-text">
+                                        This part of coursework was about classification on the MNIST dataset. I had to develop fully parameterizable neural network class without the use of libraries like PyTorch or TensorFlow. I was supposed to:
+                                    </p>
+                                    <ul>
+                                        <li>Implement sigmoid and relu layers</li>
+                                        <li>Develop a softmax output layer</li>
+                                        <li>Implement Dropout or regularization for all layers</li>
+                                        <li>Create a test suite for different layers</li>
+                                    </ul>
+                                    <h6 class="card-title">Convolutional Neural Network</h6>
+                                    <p class="card-text">
+                                        For this task I had to implementing two types of neural networks. First was the convolutional NN using PyTorch for a dataset (Fashion-MNIST). It was supposed to analise provided images and determin which piece of clothing they represented. The second NN was also a classification task, however it had to determin the possibility of rain in Australia based on meteorological data.
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
             <!-- OTHER PROJECTS -->
             <div>
                 <!-- SECTION TITLE -->
@@ -451,7 +568,7 @@
                         <div class="row g-0">
                             <!-- CAROUSEL-->
                             <div class="col-lg-4 d-flex flex-column justify-content-between">
-                                <div id="carouselPython" class="carousel slide" data-bs-ride="carousel">
+                                <div id="carouselPython" class="carousel slide" data-bs-ride="carousel" style="height:360px">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img src="./index_files/python/python1.png" class="d-block w-100" alt="...">
