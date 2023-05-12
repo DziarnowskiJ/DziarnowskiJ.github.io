@@ -26,9 +26,6 @@
         <!-- NAVIGATION -->
         <div class="col-12 col-lg-2">
             <!-- SCROLL SPY NAVBAR-->
-
-            <!--            <a class="navbar-brand" href="#">Navbar</a>-->
-
             <ul class="nav nav-pills sticky-top flex-column">
                 <li class="nav-item">
                     <a class="nav-link" href="#aboutMe">About Me</a>
@@ -36,6 +33,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="featuredProjects" role="button" aria-expanded="false">Featured projects</a>
                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#dissertation">Dissertation Project</a></li>
                         <li><a class="dropdown-item" href="#adventOfCode">Advent of Code</a></li>
                     </ul>
                 </li>
@@ -85,11 +83,12 @@
                                     <p class="card-text"> Before University, I had a short Front-end developer course where I have learned the basics of HTML, CSS and JavaScript. Although it covered only the basis of web development, it made my realise how much I enjoy coding. Additionally, I think it gave me a good base for further programming and definitely encouraged to develop my skills in this area.
                                     </p>
                                     <p class="card-text">
-                                    Now, after almost 3 years of studying computer science, I have significantly expanded my knowledge in this field. I have learned new programming languages like Java, C++, Python and Haskell, gained the understnding of various algorithms and programming practicies. Although my skills improved, I understand there is still a lot to learn and I am eager to expand my abilities in this area.
+                                        Now, after almost 3 years of studying computer science, I have significantly expanded my knowledge in this field. I have learned new programming languages like Java, C++, Python and Haskell, gained the understnding of various algorithms and programming practicies. Although my skills improved, I understand there is still a lot to learn and I am eager to expand my abilities in this area.
                                     </p>
                                     <!-- DOWNLOAD CV BUTTONS -->
                                     <div class="d-grid gap-2 d-md-block">
                                         <p class="card-text">Check out my CV:</p>
+                                        <!--TODO: chneg CV files -->
                                         <!-- ENG -->
                                         <a class="btn btn-secondary" href="./index_files/CV/JakubDziarnowskiENG.pdf" download role="button" target="_blank">
                                             English
@@ -115,6 +114,70 @@
                 <div class="alert alert-dark text-center h4" id="featuredProjects" role="alert" style="margin: 2%">
                     Featured projects
                 </div>
+
+                <!-- DISSERTATION -->
+                <section class="container" id="dissertation">
+                    <!-- CARD -->
+                    <div class="card text-bg-light border border-dark aos-left">
+                        <div class="row g-0">
+                            <!-- DESCRIPTION -->
+                            <div class="col-lg">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dissertation Project</h5>
+                                    <p class="card-text">
+                                        As a BSc Computer Science student, I dedicated a significant amount of time and effort towards my dissertation project, which culminated in the creation of a web-based multiplayer game based on the popular card game Schotten Totten.
+                                    </p>
+                                    <p class="card-text">
+                                        This project was not just a fun side project, but a challenging academic endeavor that allowed me to apply the knowledge and skills I gained throughout my studies. To implement the game, I utilized the Phaser game engine for the client-side implementation and Node for the server-side implementation. Communication between the server and client was established using Socket.io, a powerful tool for real-time bidirectional event-based communication.
+                                    </p>
+                                    <p class="card-text">
+                                        The game follows a client-server architecture, allowing two players to connect with each other and compete against each other in real-time. This required me to overcome several technical challenges, including handling game state synchronization, implementing game rules and logic, and ensuring a smooth and enjoyable user experience.
+                                    </p>
+                                    <p class="card-text">
+                                        One of the key achievements of this project was the successful deployment of the game on a live server, which allowed me to test the game under real-world conditions and ensure that it was scalable and could handle multiple concurrent users. This project has given me valuable experience in web development, game design, and networking, and I am proud of the final product that I have created.
+
+                                    </p>
+                                    <!-- BUTTONS -->
+                                    <div class="d-grid gap-2 d-md-block">
+                                        <!-- Github link -->
+                                        <a class="btn btn-secondary" href="https://github.com/DziarnowskiJ/IndividualProject" role="button">
+                                            Check my code on Github <i class="bi bi-github"></i>
+                                        </a>
+                                        <!-- Game link-->
+                                        <a class="btn btn-secondary" href="https://dissertation-project.onrender.com" role="button">
+                                            Play the game <i class="bi bi-github"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- CAROUSEL-->
+                            <div class="col-lg-5 overflow-hidden">
+                                <div id="carouselDissertation" class="carousel slide" data-bs-ride="carousel" style="max-height: 400px">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="./index_files/dissertation/dist1.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/dissertation/dist2.png" class="d-block w-100" alt="...">
+                                            <img src="./index_files/dissertation/dist3.png" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./index_files/dissertation/dist4.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDissertation" data-bs-slide="prev">
+                                        <span class="visually-hidden carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselDissertation" data-bs-slide="next">
+                                        <span class="visually-hidden carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <!-- ADVENT OF CODE -->
                 <section class="container" id="adventOfCode">
@@ -156,11 +219,11 @@
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselAoC" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselAoC" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
@@ -198,11 +261,11 @@
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselProcessing" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselProcessing" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
@@ -298,11 +361,11 @@
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselJava" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselJava" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
@@ -357,11 +420,11 @@
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselDistter" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselDistter" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
@@ -436,26 +499,11 @@
                                     <p class="card-text">
                                         As I was the person that felt most comfortable with programming, apart from standard coding, I took care of the more unusual or harder tasks like developing part of the program that dynamically creates PDF documents. I have also established a connection with database and developed functionality that allows to back up and resore it. Additionally, I worked on the harder GUI forms and programmed the ability for the user to change themes of the GUI from light to dark.
                                     </p>
-                                    <!-- BUTTONS -->
-                                    <div class="d-grid gap-2 d-md-block">
-                                        <!-- Github link -->
-                                        <!--
-                                        <a class="btn btn-secondary" href="" role="button">
-                                            Check my code on Github <i class="bi bi-github"></i>
-                                        </a>
--->
-                                        <!-- Button trigger modal -->
-                                        <!--
-                                        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalTeamProject">
-                                            See video description
-                                        </button>
--->
-                                    </div>
                                 </div>
                             </div>
                             <!-- CAROUSEL-->
                             <div class="col-lg-4">
-                                <div id="carouselTeamProject" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                                <div id="carouselTeamProject" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                             <img src="./index_files/teamProject/tp1.png" class="d-block w-100" alt="...">
@@ -475,11 +523,11 @@
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselTeamProject" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselTeamProject" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
@@ -590,11 +638,11 @@
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselPython" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselPython" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
@@ -714,11 +762,11 @@
                                         </div>
                                     </div>
                                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselSolitaire" data-bs-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </button>
                                     <button class="carousel-control-next" type="button" data-bs-target="#carouselSolitaire" data-bs-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </button>
                                 </div>
